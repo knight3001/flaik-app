@@ -49,7 +49,7 @@ const FlaikMap = (prop) => {
       console.log(e, type, layer);
 
       //L.Util.setOptions(this, { draggable: true });
-      map.addLayer(layer);
+      drawnItems.addLayer(layer);
 
       //let draggable = new L.Draggable(layer);
       //draggable.enable();
